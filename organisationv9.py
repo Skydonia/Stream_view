@@ -17,7 +17,7 @@ twitch_api_params = {
 #%%Couleurs
 def import_color():
     List_couleur=[]
-    with open('code.txt','r') as f1:
+    with open('code_couleur.txt','r') as f1:
         for i,line in enumerate(f1):
             code=line.split("\n")[0]
             List_couleur.append(code)
