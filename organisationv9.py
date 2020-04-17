@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 14 17:54:34 2020
-
-@author: Lebas Bastien
-"""
-
 from pyvis.network import Network
 import requests
 import numpy as np
