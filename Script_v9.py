@@ -100,8 +100,6 @@ class Streamer:
         return
         
     def viewers_en_migration(self):
-        if self.ancien_chat==self.chat:
-            print('gros con de merde')
         for viewer in self.ancien_chat:
             if viewer not in self.chat:
                 self.viewer_out.append(viewer)
